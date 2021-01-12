@@ -1,4 +1,23 @@
 
+$heightJumbotron:660px;
+
 div#jumbotron {
-  height: 860px;
+
+  height: $heightJumbotron;
+  color: white;
+  background-image: url($BgImgJumbotron);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  div#wrapper_text_jumbotron {
+    height: $heightJumbotron;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1 {
+    font-size: 150px;
+    line-height: 1.2;
+  }
 }
