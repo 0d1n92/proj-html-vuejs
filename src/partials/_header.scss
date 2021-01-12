@@ -26,6 +26,12 @@ header {
       &> a {
         @include verticalAlignCenter;
         padding-right: 50px;
+        text-decoration: none;
+        color: white;
+        &.btn_nav_black {
+          padding: 11px 23px;
+          margin-right: 50px;
+        }
 
       }
     }
