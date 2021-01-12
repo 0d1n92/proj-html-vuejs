@@ -30,6 +30,10 @@ textarea:focus {
 }
 
 /*RESET CLOSE*/
+.debug {
+  border: 1px solid red;
+}
+
 body {
   color: #707070;
   font-size: 15px;
@@ -57,6 +61,7 @@ body {
 
 header {
   width: 100%;
+  padding: 0 30px;
   height: 97px;
   background-color: #26a9bd;
 }
@@ -84,4 +89,8 @@ header ul#items_main_menu > li > a {
   vertical-align: middle;
   transform: translateY(-50%);
   padding-right: 50px;
+}
+
+div#jumbotron {
+  height: 860px;
 }
