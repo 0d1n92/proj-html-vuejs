@@ -36,9 +36,9 @@ body {
   margin:auto;
 }
 
-.container_#{$containerWidth} {
+.container_#{$maxWidthPage} {
   //dovrebbe essere 1260px
-  width: #{$containerWidth}+"%";
+  width: #{$maxWidthPage}+"px";
 }
 
 .float_left {

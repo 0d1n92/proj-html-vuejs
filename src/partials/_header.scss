@@ -24,7 +24,7 @@ header {
         line-height: $heightHeader;
       &> a {
         @include verticalAlignCenter;
-        padding: 36px;
+        padding-right: 50px;
 
       }
     }
