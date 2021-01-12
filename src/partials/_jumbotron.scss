@@ -1,8 +1,7 @@
 
-$heightJumbotron:660px;
+$heightJumbotron:840px;
 
 div#jumbotron {
-
   height: $heightJumbotron;
   color: white;
   background-image: url($BgImgJumbotron);
@@ -13,11 +12,24 @@ div#jumbotron {
     height: $heightJumbotron;
     width: 100%;
     display: flex;
+    align-items:flex-start;
     flex-direction: column;
     justify-content: center;
   }
   h1 {
     font-size: 150px;
-    line-height: 1.2;
+    line-height: 180px;
+    margin-bottom: 14px;
+  }
+  p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 1px;
+  }
+  button.btn_rectangle {
+    margin-top: 55px;
+    background-color: $easternBlue;
+    color: white;
   }
 }

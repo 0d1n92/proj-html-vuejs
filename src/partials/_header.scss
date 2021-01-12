@@ -1,8 +1,8 @@
 $heightHeader: 97px;
 header {
   width: 100%;
-  padding: 0 30px;
   height: $heightHeader;
+  padding: 0 30px;
   background-color: $easternBlue;
 
   @include clearfix;
