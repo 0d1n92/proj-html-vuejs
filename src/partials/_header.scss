@@ -1,0 +1,32 @@
+$heightHeader: 97px;
+header {
+  width: 100%;
+  height: $heightHeader;
+  background-color: $easternBlue;
+
+  @include clearfix;
+    #header_left, #header_right {
+      display: inline-block;
+    }
+    #header_logo{
+      a{
+      line-height: $heightHeader;
+      display: block;
+      }
+      img#logo {
+        vertical-align: middle;
+      }
+    }
+    ul#items_main_menu {
+
+      &> li {
+        @include listInline;
+        line-height: $heightHeader;
+      &> a {
+        @include verticalAlignCenter;
+        padding: 36px;
+
+      }
+    }
+  }
+}

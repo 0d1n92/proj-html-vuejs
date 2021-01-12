@@ -22,7 +22,28 @@ textarea:focus {
   border: 0;
   outline: none;
 }
-h1 {
-  color: red;
-}
+
 /*RESET CLOSE*/
+body {
+  color:#707070;
+  font-size: 15px;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+.margin_auto {
+  margin:auto;
+}
+
+.container_#{$containerWidth} {
+  //dovrebbe essere 1260px
+  width: #{$containerWidth}+"%";
+}
+
+.float_left {
+  float: left;
+}
+.float_right{
+  float: right;
+}

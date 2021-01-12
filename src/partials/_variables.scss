@@ -1,0 +1,23 @@
+
+$easternBlue: #26a9bd;
+$containerWidth: 70;
+$Txwhite;
+
+
+@mixin listInline {
+  display: inline-block;
+  list-style: none;
+}
+
+@mixin clearfix {
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin verticalAlignCenter {
+  vertical-align: middle;
+  transform: translateY(-50%);
+}
