@@ -170,9 +170,30 @@ div#jumbotron button.btn_rectangle i.fa-angle-right {
   margin-left: 10px;
 }
 
+.box_preview_article {
+  text-align: left !important;
+}
 .box_preview_article a.title_preview_link {
+  display: block;
   text-decoration: none;
   color: #191919;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+.box_preview_article .meta {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 13px;
+  line-height: 19.5px;
+}
+.box_preview_article .meta a.count_comment {
+  margin-left: 8px;
+  padding: 0 8px;
+  border-left: 1px solid #707070;
+}
+.box_preview_article p {
+  line-height: 30px;
+  display: block;
 }
 
 section#description_site {
