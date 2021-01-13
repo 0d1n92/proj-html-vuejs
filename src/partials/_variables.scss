@@ -5,6 +5,7 @@ $emperorGrey:#525252;
 $maxWidthPage: 1240;
 $BgImgJumbotron: "../img/home_slider_bg.jpg";
 $featureArticoleHero:"../img/featured_article_1_bg.jpg";
+$reviewArticoleHero:"../img/featured_article_2_bg.jpg";
 
 
 @mixin listInline {
@@ -30,4 +31,11 @@ $featureArticoleHero:"../img/featured_article_1_bg.jpg";
   font-weight: 600;
   letter-spacing: 6px;
   font-stretch: 100%;
+}
+
+@mixin heroSection {
+  padding:20% 8%;
+  padding-bottom: 8%;
+  background-size: cover;
+  color: white;
 }

@@ -1,5 +1,9 @@
 //previev ARTICLE
 .box_preview_article {
+  margin-top: 70px;
+  img.img_news {
+    width:396px;
+  }
   text-align: left !important;
   a.title_preview_link {
       display: block;
@@ -22,7 +26,6 @@
     p {
       line-height: 30px;
       display: block;
-
     }
 
   }
@@ -64,24 +67,35 @@ section#news {
     font-weight: 700;
     color: black;
   }
-  img.img_news {
-    width:396px;
-  }
-
 }
 // section news-CLOSE
 // section featured
 section#featured {
-
   #hero_featured {
     max-width: 1289.6px;
     height: 612px;
-    padding:20% 8%;
-    padding-bottom: 8%;
+    @include heroSection;
     background-image: url($featureArticoleHero);
-    background-size: cover;
-    color: white;
   }
 
 }
 // section featured-CLOSE
+// section reviewed
+section#reviewed {
+  @include clearfix;
+  #reviewed_product {
+    @include heroSection;
+    background-image: url($reviewArticoleHero);
+    margin-right: 50px;
+  }
+  aside#tutorial {
+    &.cl_30 {
+      width: calc(30% - 50px);
+    }
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+  }
+}
+// section reviewed-CLOSE

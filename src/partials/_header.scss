@@ -22,10 +22,10 @@ header {
     }
     ul#items_main_menu {
 
-      &> li {
+      > li {
         @include listInline;
         line-height: $heightHeader;
-      &> a {
+      > a {
         @include verticalAlignCenter;
         padding-right: 50px;
         text-decoration: none;
