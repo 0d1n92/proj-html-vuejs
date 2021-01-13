@@ -1,3 +1,13 @@
+//previev ARTICLE
+.box_preview_article {
+  a.title_preview_link {
+      text-decoration: none;
+      color: #191919;
+    }
+  }
+
+
+
 // section description
 section#description_site {
   background-color: #f2f2f2;
@@ -18,6 +28,7 @@ section#description_site {
   }
 }
 // section description-CLOSE
+// section new
 section#news {
   text-align: center;
   padding-top: 120px;
@@ -32,9 +43,24 @@ section#news {
     font-weight: 700;
     color: black;
   }
-
-
   img.img_news {
     width:396px;
   }
+
 }
+// section news-CLOSE
+// section featured
+section#featured {
+
+  #hero_featured {
+    max-width: 1289.6px;
+    height: 612px;
+    padding:20% 8%;
+    padding-bottom: 8%;
+    background-image: url($featureArticoleHero);
+    background-size: cover;
+    color: white;
+  }
+
+}
+// section featured-CLOSE
