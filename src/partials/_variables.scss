@@ -21,3 +21,11 @@ $BgImgJumbotron: "../img/home_slider_bg.jpg";
   vertical-align: middle;
   transform: translateY(-50%);
 }
+
+@mixin subTitleH3 {
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 500px;
+  letter-spacing: 6px;
+  font-stretch: 100%;
+}

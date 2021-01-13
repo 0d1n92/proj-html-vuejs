@@ -49,6 +49,7 @@ body {
 
 .container_1240 {
   width: 1240px;
+  height: 100%;
 }
 
 .float_left {
@@ -93,6 +94,8 @@ header #header_logo a {
 }
 header #header_logo img#logo {
   vertical-align: middle;
+  max-height: 61px;
+  height: auto;
 }
 header ul#items_main_menu > li {
   display: inline-block;
@@ -144,4 +147,27 @@ div#jumbotron button.btn_rectangle {
 }
 div#jumbotron button.btn_rectangle i.fa-angle-right {
   margin-left: 10px;
+}
+
+section#description_site {
+  background-color: #f2f2f2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 25%;
+}
+section#description_site h3.sub {
+  color: #525252;
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 500px;
+  letter-spacing: 6px;
+  font-stretch: 100%;
+}
+section#description_site p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 48px;
+  color: #707070;
 }

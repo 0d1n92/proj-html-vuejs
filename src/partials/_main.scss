@@ -1,0 +1,21 @@
+// section description
+section#description_site {
+  background-color: #f2f2f2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 25%;
+  h3.sub {
+    color: #525252;
+    @include subTitleH3;
+
+  }
+  p {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 48px;
+    color: #707070;
+  }
+}
+// section description-CLOSE

@@ -44,6 +44,7 @@ body {
 .container_#{$maxWidthPage} {
   //dovrebbe essere 1260px
   width: #{$maxWidthPage}+"px";
+  height: 100%;
 }
 
 .float_left {
