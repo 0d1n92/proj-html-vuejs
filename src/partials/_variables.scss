@@ -1,5 +1,7 @@
 
 $easternBlue: #26a9bd;
+$doveGrey:#707070;
+$emperorGrey:#525252;
 $maxWidthPage: 1240;
 $BgImgJumbotron: "../img/home_slider_bg.jpg";
 
@@ -23,9 +25,8 @@ $BgImgJumbotron: "../img/home_slider_bg.jpg";
 }
 
 @mixin subTitleH3 {
-  font-size: 16px;
   line-height: 44px;
-  font-weight: 500px;
+  font-weight: 600;
   letter-spacing: 6px;
   font-stretch: 100%;
 }
