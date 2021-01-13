@@ -133,7 +133,6 @@ div#jumbotron h1 {
   margin-bottom: 14px;
 }
 div#jumbotron p {
-  font-weight: 500;
   font-size: 24px;
   line-height: 34px;
   letter-spacing: 1px;
@@ -142,4 +141,7 @@ div#jumbotron button.btn_rectangle {
   margin-top: 55px;
   background-color: #26a9bd;
   color: white;
+}
+div#jumbotron button.btn_rectangle i.fa-angle-right {
+  margin-left: 10px;
 }
