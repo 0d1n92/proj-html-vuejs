@@ -90,3 +90,27 @@ body {
   .cl_#{$widthSmCl} {
     width: #{$widthSmCl} + "%";
   }
+
+  a.btn_XXS {
+    display: block;
+    cursor: pointer;
+    padding: 70px;
+    background-color: $codeGrey;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 1px;
+    i {
+      margin-left: 5px;
+    }
+  }
+  .title_items {
+    font-size: 18px;
+    line-height: 28.7px;
+    font-weight: 700;
+    padding: 10px 10px 10px 0px;
+    text-transform: uppercase;
+    color: $codeGrey;
+  }

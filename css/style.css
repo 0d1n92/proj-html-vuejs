@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* RESET */
 * {
   margin: 0;
@@ -101,6 +102,31 @@ h2.title_hero_article {
 
 .cl_35 {
   width: 35%;
+}
+
+a.btn_XXS {
+  display: block;
+  cursor: pointer;
+  padding: 70px;
+  background-color: #191919;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+a.btn_XXS i {
+  margin-left: 5px;
+}
+
+.title_items {
+  font-size: 18px;
+  line-height: 28.7px;
+  font-weight: 700;
+  padding: 10px 10px 10px 0px;
+  text-transform: uppercase;
+  color: #191919;
 }
 
 header {
@@ -266,6 +292,7 @@ section#reviewed #reviewed_product {
   padding: 8%;
   background-image: url("../img/featured_article_2_bg.jpg");
   margin-right: 50px;
+  margin-bottom: 12%;
 }
 section#reviewed aside#tutorial {
   height: 452px;
@@ -283,4 +310,40 @@ section#reviewed aside#tutorial.cl_35 img {
 section#reviewed .description_tutorial {
   display: flex;
   align-content: space-between;
+}
+
+#footer_top {
+  display: flex;
+  padding: 80px 0;
+}
+#footer_top > * {
+  width: calc(100% / 4);
+}
+#footer_top div#description_footer > p {
+  line-height: 29.95px;
+}
+#footer_top > ul {
+  padding: 0 15px;
+}
+#footer_top > ul > li {
+  list-style: none;
+  padding: 10px 10px 10px 12px;
+  border-bottom: 1px solid #eaeaea;
+}
+#footer_top > ul > li.title_items {
+  border: none;
+}
+#footer_top > ul > li > a {
+  text-decoration: none;
+  color: #707070;
+  font-size: 15px;
+}
+#footer_top > ul > li > a::before {
+  margin-right: 5px;
+  font-size: 13px;
+  line-height: 28.95px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  content: "";
 }

@@ -1,0 +1,36 @@
+#footer_top {
+  display: flex;
+  padding: 80px 0;
+  > * {
+     width: calc(100% / 4);
+  }
+  div#description_footer>p {
+    line-height: 29.95px;
+  }
+  > ul{
+    padding: 0 15px;
+    >li {
+    list-style: none;
+    padding: 10px 10px 10px 12px;
+    border-bottom: 1px solid #eaeaea;
+    &.title_items {
+      border: none;
+    }
+      >a {
+        text-decoration: none;
+        color: $doveGrey;
+        font-size: 15px;
+        &::before {
+          margin-right:5px;
+          font-size: 13px;
+          line-height: 28.95px;
+          vertical-align: middle;
+          font-weight: 900;
+          font-family: "Font Awesome 5 Free";
+          content: "\f105";
+          }
+        }
+
+    }
+  }
+}

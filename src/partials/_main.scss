@@ -94,10 +94,11 @@ section#reviewed {
     padding: 8%;
     background-image: url($reviewArticoleHero);
     margin-right: 50px;
+    margin-bottom: 12%;
   }
   aside#tutorial {
     &.cl_#{$widthSmCl} {
-      width: calc( #{$widthSmCl + "%"} - 50px);
+      width: calc( #{$widthSmCl}% - 50px);
       img {
         height: 117px;
         margin-right: 20px;

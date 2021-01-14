@@ -14,181 +14,219 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
   </head>
   <body>
-    <header>
-      <div class="margin_auto container_1340">
-        <div id="header_left" class="float_left">
-          <div id="header_logo"><a href=""><img id="logo" src="img/logo-2x.png" alt=""></a></div>
+    <div id="app">
+      <header>
+        <div class="margin_auto container_1340">
+          <div id="header_left" class="float_left">
+            <div id="header_logo"><a href=""><img id="logo" src="img/logo-2x.png" alt=""></a></div>
+          </div>
+          <div id="header_right" class="float_right">
+            <nav id="main_menu">
+              <ul id="items_main_menu">
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">Home</a> </li>
+                <li><a class="btn_nav_black" href="#">Join us</a> </li>
+                <li><a href="#"><i class="fas fa-search"></i></a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
-        <div id="header_right" class="float_right">
-          <nav id="main_menu">
-            <ul id="items_main_menu">
-              <li><a href="#">Home</a> </li>
-              <li><a href="#">Home</a> </li>
-              <li><a href="#">Home</a> </li>
-              <li><a href="#">Home</a> </li>
-              <li><a href="#">Home</a> </li>
-              <li><a href="#">Home</a> </li>
-              <li><a class="btn_nav_black" href="#">Join us</a> </li>
-              <li><a href="#"><i class="fas fa-search"></i></a></li>
-            </ul>
-          </nav>
+      </header>
+      <!-- jumbotron -->
+      <div id="jumbotron">
+        <div  class="margin_auto container_1340">
+           <div id="wrapper_text_jumbotron">
+              <h1>Tech Forum!</h1>
+              <p>Discuss all the latest technology news and trends</p>
+              <button class="btn_rectangle" type="button" name="button">Get avada now! <i class="fas fa-angle-right"></i></button>
+          </div>
         </div>
       </div>
-    </header>
-    <!-- jumbotron -->
-    <div id="jumbotron">
-      <div  class="margin_auto container_1340">
-         <div id="wrapper_text_jumbotron">
-            <h1>Tech Forum!</h1>
-            <p>Discuss all the latest technology news and trends</p>
-            <button class="btn_rectangle" type="button" name="button">Get avada now! <i class="fas fa-angle-right"></i></button>
-        </div>
-      </div>
-    </div>
-    <!-- jumbotron-CLOSE -->
-    <main>
-      <section id="description_site">
-        <h3 class="sub">AVADA FORUM IS THE PLACE TO BE</h3>
-        <p>
-          In quis lectus sed leo elementum faucibus in dapibus dictum. Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.
-        </p>
-      </section>
-      <!-- section news -->
-      <section id="news">
-        <h3 class="sub" >PHASELLUS EGET METUS</h3>
-        <h2>All the latest news</h2>
-        <!-- article grid 3 items-->
-        <div id="grid_news_preview"  class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
-          <!-- article box1 -->
-          <figure class="box_preview_article">
-            <a href="#">
-              <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-            </a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-              <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-            </figcaption>
-          </figure>
-            <!-- article box1-CLOSE -->
-            <!-- article box2 -->
-          <figure class="box_preview_article">
-            <a href="#">
-              <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-            </a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-              <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-            </figcaption>
-          </figure>
-
-          <!-- article box2-CLOSE -->
-            <!-- article box3-->
-          <figure class="box_preview_article">
-            <a href="#">
-              <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-            </a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-              <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-            </figcaption>
-          </figure>
-            <!-- article box3-CLOSE -->
-        </div>
-        <!-- article grid -->
-      </section>
-      <!-- section news-CLOSE -->
-      <!-- section featured -->
-      <section id="featured" class="container_1340 margin_auto">
-        <div id="hero_featured">
-          <h3 class="sub">FEATURED ARTICLE</h3>
-          <h2 class="title_hero_article">Cras malesuada et orci eget pharetra</h2>
-          <p>In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
-          <button class="btn_rectangle" type="button" name="button">read more  <i class="fas fa-angle-right"></i></button>
-        </div>
-        <!-- article grid 3 items-->
-        <div id="grid_featured_preview" class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
-          <!-- article box1 -->
-          <figure class="box_preview_article">
-            <a href="#">
-              <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-            </a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-              <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-            </figcaption>
-          </figure>
-            <!-- article box1-CLOSE -->
-            <!-- article box2 -->
-          <figure class="box_preview_article">
-            <a href="#">
-              <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-            </a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-              <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-            </figcaption>
-          </figure>
-
-          <!-- article box2-CLOSE -->
-            <!-- article box3-->
-          <figure class="box_preview_article">
-            <a href="#">
-              <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-            </a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-              <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-            </figcaption>
-          </figure>
-            <!-- article box3-CLOSE -->
-        </div>
-        <!-- article grid -->
-      </section>
-        <!-- section featured-CLOSE -->
-
-      <section id="reviewed" class="container_1340 margin_auto">
-        <!-- left -->
-        <section id="reviewed_product"  class="float_left cl_65">
-          <h3 class="sub">FEATURED ARTICLE</h3>
-          <h2 class="title_hero_article">Cras malesuada et orci eget pharetra</h2>
-          <p>In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
-          <button class="btn_rectangle" type="button" name="button">read more  <i class="fas fa-angle-right"></i></button>
+      <!-- jumbotron-CLOSE -->
+      <main>
+        <section id="description_site">
+          <h3 class="sub">AVADA FORUM IS THE PLACE TO BE</h3>
+          <p>
+            In quis lectus sed leo elementum faucibus in dapibus dictum. Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.
+          </p>
         </section>
-        <!-- right -->
-        <aside id="tutorial" class="float_right cl_35">
-          <h3>Tutorial & Guides</h3>
-          <figure class="description_tutorial">
-            <a  href=""><img src="img\post_feat_img_23-147x118.jpg" alt=""></a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-            </figcaption>
-          </figure>
+        <!-- section news -->
+        <section id="news">
+          <h3 class="sub" >PHASELLUS EGET METUS</h3>
+          <h2>All the latest news</h2>
+          <!-- article grid 3 items-->
+          <div id="grid_news_preview"  class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
+            <!-- article box1 -->
+            <article class="box_preview_article">
+              <a href="#">
+                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
+              </a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+              </div>
+            </article>
+              <!-- article box1-CLOSE -->
+              <!-- article box2 -->
+            <article class="box_preview_article">
+              <a href="#">
+                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
+              </a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+              </div>
+            </article>
 
-          <figure class="description_tutorial">
-            <a  href=""><img src="img\post_feat_img_23-147x118.jpg" alt=""></a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-            </figcaption>
-          </figure>
+            <!-- article box2-CLOSE -->
+              <!-- article box3-->
+            <article class="box_preview_article">
+              <a href="#">
+                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
+              </a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+              </div>
+            </article>
+              <!-- article box3-CLOSE -->
+          </div>
+          <!-- article grid -->
+        </section>
+        <!-- section news-CLOSE -->
+        <!-- section featured -->
+        <section id="featured" class="container_1340 margin_auto">
+          <div id="hero_featured">
+            <h3 class="sub">FEATURED ARTICLE</h3>
+            <h2 class="title_hero_article">Cras malesuada et orci eget pharetra</h2>
+            <p>In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
+            <button class="btn_rectangle" type="button" name="button">read more  <i class="fas fa-angle-right"></i></button>
+          </div>
+          <!-- article grid 3 items-->
+          <div id="grid_featured_preview" class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
+            <!-- article box1 -->
+            <article class="box_preview_article">
+              <a href="#">
+                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
+              </a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+              </div>
+            </article>
+              <!-- article box1-CLOSE -->
+              <!-- article box2 -->
+            <article class="box_preview_article">
+              <a href="#">
+                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
+              </a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+              </div>
+            </article>
 
-          <figure class="description_tutorial">
-            <a  href=""><img src="img\post_feat_img_23-147x118.jpg" alt=""></a>
-            <figcaption>
-              <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-              <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-            </figcaption>
-          </figure>
-        </aside>
-      </section>
+            <!-- article box2-CLOSE -->
+              <!-- article box3-->
+            <article class="box_preview_article">
+              <a href="#">
+                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
+              </a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+              </div>
+            </article>
+              <!-- article box3-CLOSE -->
+          </div>
+          <!-- article grid -->
+        </section>
+          <!-- section featured-CLOSE -->
 
-    </main>
+        <section id="reviewed" class="container_1340 margin_auto">
+          <!-- left -->
+          <section id="reviewed_product"  class="float_left cl_65">
+            <h3 class="sub">FEATURED ARTICLE</h3>
+            <h2 class="title_hero_article">Cras malesuada et orci eget pharetra</h2>
+            <p>In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
+            <button class="btn_rectangle" type="button" name="button">read more  <i class="fas fa-angle-right"></i></button>
+          </section>
+          <!-- right -->
+          <aside id="tutorial" class="float_right cl_35">
+            <h3>Tutorial & Guides</h3>
+            <article class="description_tutorial">
+              <a  href=""><img src="img\post_feat_img_23-147x118.jpg" alt=""></a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+              </div>
+            </article>
+
+            <article class="description_tutorial">
+              <a  href=""><img src="img\post_feat_img_23-147x118.jpg" alt=""></a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+              </div>
+            </article>
+
+            <article class="description_tutorial">
+              <a  href=""><img src="img\post_feat_img_23-147x118.jpg" alt=""></a>
+              <div>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
+                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
+              </div>
+            </article>
+          </aside>
+        </section>
+        <div id="redour_wrapper_XXS_btn">
+          <a class="btn_XXS" type="button" name="button">READ OUR BLOG <i class="fas fa-long-arrow-alt-right"></i></a>
+
+        </div>
+        <footer >
+          <div id="footer_top" class="container_1340 margin_auto">
+            <div id="description_footer">
+              <h2 class="title_items">avanda tech forum</h2>
+              <p>Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.</p>
+            </div>
+            <ul id="popolar_topics">
+              <li class="title_items">popular topics</li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+            </ul>
+            <ul id="recent_topics">
+              <li class="title_items">recent topics</li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+            </ul>
+            <ul id="latest_replies">
+              <li class="title_items">latest topics</li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+            </ul>
+          </div>
+          <div id="footer_bottom">
+
+          </div>
+        </footer>
+
+      </main>
+    </div>
   </body>
 </html>
