@@ -74,6 +74,12 @@ body {
   h3.sub {
     @include subTitleH3;
   }
+  
+#reviewed_product h3.sub ,#reviewed_product h3.sub {
+    margin-bottom: 0;
+  }
+
+
   .orizontal_flex {
     display: flex;
     justify-content: space-between;

@@ -140,6 +140,8 @@ section#forum_section {
     justify-content: space-between;
     margin: 65px 0;
   }
+
+
   #container_sections_forum {
     .box_section_forum {
       display: flex;
@@ -150,6 +152,14 @@ section#forum_section {
       height:250px;
       background-color: white;
       border-top: 4px solid #32b3c6;
+      a {
+        text-decoration: none;
+      }
+      h3 {
+        font-size: 23px;
+        line-height: 28.6px;
+        color:black;
+      }
       i {
         border-color:rgba(255,255,255,0);
         border-width:0px;
@@ -161,7 +171,39 @@ section#forum_section {
         border-radius:100%;
         color:#ffffff;
         font-size:42px;
+        margin-bottom: 15px;
       }
     }
   }
+}
+
+section#go_to_forum {
+  background-image: url($BgSectionGoToForum);
+  background-size:cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  @include paddingSection;
+  padding-bottom: 120px;
+  .wrapper {
+    width: 500px;
+    text-align: center;
+    h2 {
+      font-size: 60px;
+      line-height: 72px;
+      padding: 20px 0px;
+    }
+    h2, p {
+        padding: 20px 0px;
+    }
+    .btn_rectangle {
+      @include btnBlue;
+      color: white;
+    }
+
+  }
+
+
+
+
 }

@@ -28,8 +28,7 @@ div#jumbotron {
   }
   button.btn_rectangle {
     margin-top: 55px;
-    background-color: $easternBlue;
-    color: white;
+    @include btnBlue;
     i.fa-angle-right {
       margin-left: 10px;
     }

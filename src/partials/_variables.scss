@@ -11,6 +11,7 @@ $widthSmCl: 35;
 $BgImgJumbotron: "../img/home_slider_bg.jpg";
 $featureArticoleHero:"../img/featured_article_1_bg.jpg";
 $reviewArticoleHero:"../img/featured_article_2_bg.jpg";
+$BgSectionGoToForum: "../img/join_now_cta_bg.jpg";
 
 
 @mixin listInline {
@@ -36,6 +37,7 @@ $reviewArticoleHero:"../img/featured_article_2_bg.jpg";
   font-weight: 600;
   letter-spacing: 6px;
   font-stretch: 100%;
+  margin-bottom: 20px;
 }
 
 @mixin heroSection {
@@ -49,4 +51,9 @@ $reviewArticoleHero:"../img/featured_article_2_bg.jpg";
   padding-top: 120px;
   padding-right: 30px;
   padding-left: 30px
+}
+
+@mixin btnBlue {
+  background-color: $easternBlue;
+  color: white;
 }

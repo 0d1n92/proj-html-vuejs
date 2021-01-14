@@ -41,55 +41,55 @@ var app = new Vue({
     ],
 
 
-              articlesNews: [
-                {
-                  img:"img/post_feat_img_25-700x441.jpg",
-                  title:"Fusce sollicitudin nunc sed placerat varius",
-                  text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
-                  date:"October 11th, 2015",
-                  comments:"comments 2",
-                },
-                {
-                  img:"img/post_feat_img_24-700x441.jpg",
-                  title:"Donec facilis sodales leo sit amet laoreet",
-                  text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
-                  date:"October 11th, 2015",
-                  comments:"comments 2",
+    articlesNews: [
+      {
+        img:"img/post_feat_img_25-700x441.jpg",
+        title:"Fusce sollicitudin nunc sed placerat varius",
+        text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+        date:"October 11th, 2015",
+        comments:"comments 2",
+      },
+      {
+        img:"img/post_feat_img_24-700x441.jpg",
+        title:"Donec facilis sodales leo sit amet laoreet",
+        text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+        date:"October 11th, 2015",
+        comments:"comments 2",
 
-                },
-                {
-                  img:"img/post_feat_img_23-700x441.jpg",
-                  title:"Proin eu purus sed aru aliquet curabir vens",
-                  text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
-                  date:"October 11th, 2015",
-                  comments:"Comments Off",
-                }
-            ],
+      },
+      {
+        img:"img/post_feat_img_23-700x441.jpg",
+        title:"Proin eu purus sed aru aliquet curabir vens",
+        text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+        date:"October 11th, 2015",
+        comments:"Comments Off",
+      }
+  ],
 
 
-      articlesFeatured: [
-        {
-          img:"img/post_feat_img_22-700x441.jpg",
-          title:"Morbi vitae dui euismod vulputate sollicitudin",
-          text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
-          date:"October 11th, 2015",
-          comments:"Comments Off",
-        },
-        {
-          img:"img/post_feat_img_21-700x441.jpg",
-          title:"Vivamus pellenteque, felis quis varius",
-          text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
-          date:"October 11th, 2015",
-          comments:"Comments Off",
+    articlesFeatured: [
+      {
+        img:"img/post_feat_img_22-700x441.jpg",
+        title:"Morbi vitae dui euismod vulputate sollicitudin",
+        text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+        date:"October 11th, 2015",
+        comments:"Comments Off",
+      },
+      {
+        img:"img/post_feat_img_21-700x441.jpg",
+        title:"Vivamus pellenteque, felis quis varius",
+        text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+        date:"October 11th, 2015",
+        comments:"Comments Off",
 
-        },
-        {
-          img:"img/post_feat_img_20-700x441.jpg",
-          title:"Donec ornare pretium eget scelisque justo",
-          text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
-          date:"October 11th, 2015",
-          comments:"Comments Off",
-        }
+      },
+      {
+        img:"img/post_feat_img_20-700x441.jpg",
+        title:"Donec ornare pretium eget scelisque justo",
+        text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+        date:"October 11th, 2015",
+        comments:"Comments Off",
+      }
     ],
 
     tutorialData:[
@@ -115,40 +115,38 @@ var app = new Vue({
     sectionsForum: [
       {
         title: "Nws & Comunity",
-        icon:"fa-file-alt",
+        icon:"fas fa-file-alt",
       },
       {
         title: "Apple Forum",
-        icon:"fa-apple",
+        icon:"fab fa-apple",
       },
       {
         title: "Microsoft Forum",
-        icon:"fa-windows",
+        icon:" fab fa-windows",
       },
       {
         title:"Android Forum",
-        icon:"fa-android",
+        icon:"fab fa-android",
       },
       {
         title:"General Discussion",
-        icon:"fa-coffee",
+        icon:"fas fa-coffee",
       },
       {
         title:"App & Software",
-        icon:"fa-cubes",
+        icon:"fas fa-cubes",
       },
       {
         title:"Gadget & Stuff",
-        icon:"fa-laptop",
+        icon:" fas fa-laptop",
       },
       {
         title:"Tutorials & Guides",
-        icon:"fa-wrench",
+        icon:"fas fa-wrench",
       },
 
     ],
-
-
 
   },
   methods: {

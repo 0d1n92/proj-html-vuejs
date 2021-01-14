@@ -124,29 +124,43 @@
             </article>
           </aside>
         </section>
-        <div id="redour_wrapper_XXS_btn">
+        <div class="redour_wrapper_XXS_btn">
           <a class="btn_XXS" type="button" name="button">READ OUR BLOG <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
         <section id="forum_section">
           <h3 class="sub">PHASELLUS EGET METUS</h3>
-          <h2 class="title_big_section">Forum Section</h2>
+          <h2 class="title_big_section">Forum Sections</h2>
           <span class="orange_line"></span>
           <div id="container_sections_forum" class="container_1340 margin_auto">
             <div class="row">
               <div v-for="(element,index) in sectionsForum" v-if="index< 4" class="box_section_forum">
-                <i  aria-hidden="true" :class="sectionsForum[index].icon" class="fas"></i>
+                <a href="#">
+                <i  aria-hidden="true" :class="sectionsForum[index].icon"></i>
                 <h3>{{element.title}}</h3>
+              </a>
               </div>
             </div>
             <div class="row">
               <div v-for="(element,index) in sectionsForum" v-if="index>=4" class="box_section_forum">
-                <i  aria-hidden="true" :class="element.icon" class="fas"></i>
-                <h3>{{element.title}}</h3>
+                <a href="#">
+                  <i  aria-hidden="true" :class="element.icon" ></i>
+                  <h3>{{element.title}}</h3>
+                </a>
               </div>
             </div>
           </div>
         </section>
-        <footer >
+        <div class="redour_wrapper_XXS_btn">
+          <a class="btn_XXS" type="button" name="button">GO TO FORUM<i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <section id="go_to_forum">
+          <div class="wrapper">
+            <h2>Hey! Join to our Community</h2>
+            <p>Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. Curabitur feugiat vulputate purus ipsums dolores ficilis uns etra.</p>
+            <button class="btn_rectangle" type="button" name="button">Sign Up <i class="fas fa-angle-right"></i></button>
+          </div>
+        </section>
+        <footer>
           <div id="footer_top" class="container_1340 margin_auto">
             <div id="description_footer">
               <h2 class="title_items">{{descriptionFotter.title}}</h2>

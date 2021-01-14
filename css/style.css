@@ -84,6 +84,11 @@ h3.sub {
   font-weight: 600;
   letter-spacing: 6px;
   font-stretch: 100%;
+  margin-bottom: 20px;
+}
+
+#reviewed_product h3.sub, #reviewed_product h3.sub {
+  margin-bottom: 0;
 }
 
 .orizontal_flex {
@@ -397,6 +402,14 @@ section#forum_section #container_sections_forum .box_section_forum {
   background-color: white;
   border-top: 4px solid #32b3c6;
 }
+section#forum_section #container_sections_forum .box_section_forum a {
+  text-decoration: none;
+}
+section#forum_section #container_sections_forum .box_section_forum h3 {
+  font-size: 23px;
+  line-height: 28.6px;
+  color: black;
+}
 section#forum_section #container_sections_forum .box_section_forum i {
   border-color: rgba(255, 255, 255, 0);
   border-width: 0px;
@@ -408,6 +421,37 @@ section#forum_section #container_sections_forum .box_section_forum i {
   border-radius: 100%;
   color: #ffffff;
   font-size: 42px;
+  margin-bottom: 15px;
+}
+
+section#go_to_forum {
+  background-image: url("../img/join_now_cta_bg.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 120px;
+}
+section#go_to_forum .wrapper {
+  width: 500px;
+  text-align: center;
+}
+section#go_to_forum .wrapper h2 {
+  font-size: 60px;
+  line-height: 72px;
+  padding: 20px 0px;
+}
+section#go_to_forum .wrapper h2, section#go_to_forum .wrapper p {
+  padding: 20px 0px;
+}
+section#go_to_forum .wrapper .btn_rectangle {
+  background-color: #26a9bd;
+  color: white;
+  color: white;
 }
 
 #footer_top {
