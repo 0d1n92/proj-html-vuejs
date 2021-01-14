@@ -164,6 +164,9 @@ header ul#items_main_menu > li > a {
   text-decoration: none;
   color: white;
 }
+header ul#items_main_menu > li > a::first-letter {
+  text-transform: uppercase;
+}
 header ul#items_main_menu > li > a.btn_nav_black {
   padding: 11px 23px;
   margin-right: 50px;

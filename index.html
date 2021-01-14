@@ -23,12 +23,7 @@
           <div id="header_right" class="float_right">
             <nav id="main_menu">
               <ul id="items_main_menu">
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">Home</a> </li>
+                <li v-for="item in itemsMainMenu" ><a href="#">{{item}}</a> </li>
                 <li><a class="btn_nav_black" href="#">Join us</a> </li>
                 <li><a href="#"><i class="fas fa-search"></i></a></li>
               </ul>
@@ -196,37 +191,20 @@
         <footer >
           <div id="footer_top" class="container_1340 margin_auto">
             <div id="description_footer">
-              <h2 class="title_items">avanda tech forum</h2>
-              <p>Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.</p>
+              <h2 class="title_items">{{descriptionFotter.title}}</h2>
+              <p>{{descriptionFotter.text}}</p>
             </div>
-            <ul id="popolar_topics">
-              <li class="title_items">popular topics</li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-            </ul>
-            <ul id="recent_topics">
-              <li class="title_items">recent topics</li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-            </ul>
-            <ul id="latest_replies">
-              <li class="title_items">latest topics</li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
-              <li><a href="#">Cras lacinia tellus id mauris finibus lacus molestie</a> </li>
+            <ul v-for="element in itemsLinkFooter" :id="element.id">
+              <li class="title_items">{{element.title}}</li>
+              <li v-for="item in element.linkText "><a href="#">{{item}}</a> </li>
             </ul>
           </div>
           <div id="footer_bottom">
 
           </div>
         </footer>
-
       </main>
     </div>
+    <script src="js/main.js" charset="utf-8"></script>
   </body>
 </html>
