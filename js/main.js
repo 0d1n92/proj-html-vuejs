@@ -6,6 +6,7 @@ var app = new Vue({
         title: "avada tech forum",
         text: "Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.",
       },
+
     itemsLinkFooter:[
       {
         id:"popolar_topics",
@@ -36,8 +37,32 @@ var app = new Vue({
           "Nulla egestas nulla eu nulla suscipit molestie",
           "Mauris ac nibh quis eros sagittis lacinia a et dui"
         ],
-      }
+      },
+    ],
 
+      articlesNews: [
+        {
+          img:"img/post_feat_img_25-700x441.jpg",
+          title:"Morbi vitae dui euismod vulputate sollicitudin",
+          text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+          date:"October 11th, 2015",
+          comments:"2 comments",
+        },
+        {
+          img:"img/post_feat_img_24-700x441.jpg",
+          title:"Vivamus pellenteque, felis quis varius",
+          text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+          date:"October 11th, 2015",
+          comments:"2 comments",
+
+        },
+        {
+          img:"img/post_feat_img_23-700x441.jpg",
+          title:"Donec ornare pretium eget scelisque justo",
+          text:"Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl",
+          date:"October 11th, 2015",
+          comments:"Comments Off",
+        }
     ],
 
 

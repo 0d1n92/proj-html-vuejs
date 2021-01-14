@@ -56,42 +56,16 @@
           <!-- article grid 3 items-->
           <div id="grid_news_preview"  class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
             <!-- article box1 -->
-            <article class="box_preview_article">
+            <article v-for="article in articlesNews" class="box_preview_article">
               <a href="#">
-                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
+                <img class="img_news" :src=article.img alt="art 1">
               </a>
               <div>
-                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+                <a href="#" class="title_preview_link"><h3 class="title_preview_post">{{article.title}}</h3> </a>
+                <span class="meta">{{article.date}}<a class="count_comment">{{article.comments}}</a></span>
+                <p>{{article.text}}</p>
               </div>
             </article>
-              <!-- article box1-CLOSE -->
-              <!-- article box2 -->
-            <article class="box_preview_article">
-              <a href="#">
-                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-              </a>
-              <div>
-                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-              </div>
-            </article>
-
-            <!-- article box2-CLOSE -->
-              <!-- article box3-->
-            <article class="box_preview_article">
-              <a href="#">
-                <img class="img_news" src="img/post_feat_img_25-700x441.jpg" alt="art 1">
-              </a>
-              <div>
-                <a href="#" class="title_preview_link"><h3 class="title_preview_post">Morbi vitae dui euismod vulputate sollicitudin</h3> </a>
-                <span class="meta">October 11th, 2015<a class="count_comment">2 Comments</a></span>
-                <p>Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-              </div>
-            </article>
-              <!-- article box3-CLOSE -->
           </div>
           <!-- article grid -->
         </section>
