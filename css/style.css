@@ -454,6 +454,30 @@ section#go_to_forum .wrapper .btn_rectangle {
   color: white;
 }
 
+div#news_letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+div#news_letter p {
+  font-size: 30px;
+  color: #191919;
+  margin-bottom: 55px;
+}
+
+#news_letter_post .btn_rectangle {
+  background-color: #191919;
+  color: white;
+}
+#news_letter_post > input[type=text] {
+  height: 54px;
+  width: 500px;
+  margin-right: 20px;
+}
+
 #footer_top {
   display: flex;
   padding: 80px 0;
@@ -493,4 +517,10 @@ section#go_to_forum .wrapper .btn_rectangle {
   font-weight: 900;
   font-family: "Font Awesome 5 Free";
   content: "";
+}
+
+#footer_bottom .container_1340 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
