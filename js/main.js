@@ -116,7 +116,10 @@ var app = new Vue({
 
 
   },
-  mounted:function () {
+  methods: {
 
+  },
+  mounted:function () {
+  
   }
 });

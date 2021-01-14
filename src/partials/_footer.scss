@@ -20,6 +20,10 @@
         text-decoration: none;
         color: $doveGrey;
         font-size: 15px;
+        &:hover {
+          color:$easternBlue;
+          text-decoration-color: $easternBlue;
+        }
         &::before {
           margin-right:5px;
           font-size: 13px;

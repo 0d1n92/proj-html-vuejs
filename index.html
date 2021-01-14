@@ -22,7 +22,7 @@
           <div id="header_right" class="float_right">
             <nav id="main_menu">
               <ul id="items_main_menu">
-                <li v-for="(item,index) in itemsMainMenu"><a href="#">{{item}}</a>
+                <li  v-for="(item,index) in itemsMainMenu"><a href="#">{{item}}</a>
                   <span v-if="index==0" class="fusion-arrow-svg active"><svg height="12px" width="27px">
                   <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
                   </svg></span>
@@ -60,6 +60,7 @@
         <section id="news">
           <h3 class="sub" >PHASELLUS EGET METUS</h3>
           <h2>All the latest news</h2>
+          <span class="orange_line"></span>
           <!-- article grid 3 items-->
           <div id="grid_news_preview"  class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
             <!-- article box1 -->
@@ -113,6 +114,7 @@
           <!-- right -->
           <aside id="tutorial" class="float_right cl_35">
             <h3>Tutorial & Guides</h3>
+            <div class="orange_line"></div>
             <article class="description_tutorial" v-for="item in tutorialData">
               <a  href=""><img :src=item.img alt=""></a>
               <div>

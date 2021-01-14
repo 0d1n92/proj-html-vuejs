@@ -68,6 +68,10 @@ body {
   font-size: 18px;
   font-weight: 700;
 }
+.btn_rectangle:hover {
+  background-color: #FF8D61 !important;
+  color: white !important;
+}
 
 .btn_nav_black {
   background-color: black;
@@ -116,6 +120,9 @@ a.btn_XXS {
   text-align: center;
   letter-spacing: 1px;
 }
+a.btn_XXS:hover {
+  background-color: #25a9bd;
+}
 a.btn_XXS i {
   margin-left: 5px;
 }
@@ -138,6 +145,14 @@ a.btn_XXS i {
 }
 .fusion-arrow-svg.active {
   display: block !important;
+}
+
+.orange_line {
+  display: block;
+  width: 90px;
+  height: 3px;
+  margin: 30px 0;
+  background-color: #FF8D61;
 }
 
 header {
@@ -169,6 +184,9 @@ header ul#items_main_menu > li {
   list-style: none;
   line-height: 97px;
 }
+header ul#items_main_menu > li:hover .fusion-arrow-svg {
+  display: block;
+}
 header ul#items_main_menu > li > a {
   vertical-align: middle;
   transform: translateY(-50%);
@@ -176,14 +194,14 @@ header ul#items_main_menu > li > a {
   text-decoration: none;
   color: white;
 }
-header ul#items_main_menu > li > a::first-letter {
-  text-transform: uppercase;
-}
 header ul#items_main_menu > li > a.btn_nav_black {
   font-weight: 900;
   letter-spacing: 1px;
   padding: 11px 23px;
   margin-right: 50px;
+}
+header ul#items_main_menu > li > a.btn_nav_black:hover {
+  background-color: #FF8D61;
 }
 
 div#jumbotron {
@@ -278,6 +296,11 @@ section#news {
   padding-right: 30px;
   padding-left: 30px;
 }
+section#news .orange_line {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
 section#news h3.sub {
   color: #525252;
   margin-bottom: 20px;
@@ -297,6 +320,14 @@ section#featured #hero_featured {
   color: white;
   background-image: url("../img/featured_article_1_bg.jpg");
 }
+section#featured #hero_featured p {
+  line-height: 28.95px;
+  margin-bottom: 35px;
+}
+section#featured #hero_featured .btn_rectangle {
+  background-color: #191919;
+  color: white;
+}
 
 section#reviewed::after {
   content: "";
@@ -311,11 +342,23 @@ section#reviewed #reviewed_product {
   margin-right: 50px;
   margin-bottom: 12%;
 }
+section#reviewed #reviewed_product p {
+  line-height: 28.95px;
+  margin-bottom: 35px;
+}
+section#reviewed #reviewed_product .btn_rectangle {
+  background-color: #191919;
+  color: white;
+}
 section#reviewed aside#tutorial {
-  height: 452px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+section#reviewed aside#tutorial > h3 {
+  font-size: 30px;
+  line-height: 39.9px;
+  color: #191919;
 }
 section#reviewed aside#tutorial.cl_35 {
   width: calc( 35% - 50px);
@@ -326,6 +369,7 @@ section#reviewed aside#tutorial.cl_35 img {
 }
 section#reviewed .description_tutorial {
   display: flex;
+  margin-top: 20px;
   align-content: space-between;
 }
 
@@ -354,6 +398,11 @@ section#reviewed .description_tutorial {
   text-decoration: none;
   color: #707070;
   font-size: 15px;
+}
+#footer_top > ul > li > a:hover {
+  color: #26a9bd;
+  -webkit-text-decoration-color: #26a9bd;
+          text-decoration-color: #26a9bd;
 }
 #footer_top > ul > li > a::before {
   margin-right: 5px;

@@ -27,19 +27,22 @@ header {
         position: relative;
         @include listInline;
         line-height: $heightHeader;
+        &:hover .fusion-arrow-svg{
+          display: block;
+        }
       > a {
         @include verticalAlignCenter;
         padding-right: 50px;
         text-decoration: none;
         color: white;
-        &::first-letter{
-          text-transform:uppercase;
-        }
         &.btn_nav_black {
           font-weight: 900;
           letter-spacing: 1px;
           padding: 11px 23px;
           margin-right: 50px;
+          &:hover {
+            background-color: $lightCoral;
+          }
         }
 
       }
