@@ -22,7 +22,9 @@ header {
     }
     ul#items_main_menu {
 
+
       > li {
+        position: relative;
         @include listInline;
         line-height: $heightHeader;
       > a {
@@ -34,6 +36,8 @@ header {
           text-transform:uppercase;
         }
         &.btn_nav_black {
+          font-weight: 900;
+          letter-spacing: 1px;
           padding: 11px 23px;
           margin-right: 50px;
         }

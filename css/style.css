@@ -129,6 +129,14 @@ a.btn_XXS i {
   color: #191919;
 }
 
+.fusion-arrow-svg {
+  display: block;
+  position: absolute;
+  top: 55px;
+  left: 25%;
+  transform: translateX(-50%);
+}
+
 header {
   width: 100%;
   height: 97px;
@@ -153,6 +161,7 @@ header #header_logo img#logo {
   height: auto;
 }
 header ul#items_main_menu > li {
+  position: relative;
   display: inline-block;
   list-style: none;
   line-height: 97px;
@@ -168,6 +177,8 @@ header ul#items_main_menu > li > a::first-letter {
   text-transform: uppercase;
 }
 header ul#items_main_menu > li > a.btn_nav_black {
+  font-weight: 900;
+  letter-spacing: 1px;
   padding: 11px 23px;
   margin-right: 50px;
 }
