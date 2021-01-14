@@ -58,25 +58,13 @@ section#description_site {
 // section description-CLOSE
 // section new
 section#news {
-  text-align: center;
-  padding-top: 120px;
-  padding-right: 30px;
-  padding-left: 30px;
-  .orange_line {
-    position: absolute;
-    right: 50%;
+  @include paddingSection;
 
-    transform: translateX(50%);
-  }
   h3.sub {
     color: $emperorGrey;
     margin-bottom: 20px;
   }
-  h2 {
-    font-size: 48px;
-    font-weight: 700;
-    color: black;
-  }
+
 }
 // section news-CLOSE
 // section featured
@@ -143,3 +131,25 @@ section#reviewed {
   }
 }
 // section reviewed-CLOSE
+section#forum_section {
+  @include paddingSection;
+  background-color:#f2f2f2;
+  #container_sections_forum {
+    display: flex;
+    justify-content: space-between;
+    .box_section_forum {
+      i {
+        border-color:rgba(255,255,255,0);
+        border-width:0px;
+        background-color:$lightCoral;
+        box-sizing:content-box;
+        height:84px;
+        width:84px;
+        line-height:84px;
+        border-radius:100%;
+        color:#ffffff;
+        font-size:42px;
+      }
+    }
+  }
+}

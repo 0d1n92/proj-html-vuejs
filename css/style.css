@@ -155,6 +155,17 @@ a.btn_XXS i {
   background-color: #FF8D61;
 }
 
+h2.title_big_section {
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+h2.title_big_section + .orange_line {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+}
+
 header {
   width: 100%;
   height: 97px;
@@ -296,19 +307,9 @@ section#news {
   padding-right: 30px;
   padding-left: 30px;
 }
-section#news .orange_line {
-  position: absolute;
-  right: 50%;
-  transform: translateX(50%);
-}
 section#news h3.sub {
   color: #525252;
   margin-bottom: 20px;
-}
-section#news h2 {
-  font-size: 48px;
-  font-weight: 700;
-  color: black;
 }
 
 section#featured #hero_featured {
@@ -371,6 +372,30 @@ section#reviewed .description_tutorial {
   display: flex;
   margin-top: 20px;
   align-content: space-between;
+}
+
+section#forum_section {
+  text-align: center;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #f2f2f2;
+}
+section#forum_section #container_sections_forum {
+  display: flex;
+  justify-content: space-between;
+}
+section#forum_section #container_sections_forum .box_section_forum i {
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 0px;
+  background-color: #FF8D61;
+  box-sizing: content-box;
+  height: 84px;
+  width: 84px;
+  line-height: 84px;
+  border-radius: 100%;
+  color: #ffffff;
+  font-size: 42px;
 }
 
 #footer_top {

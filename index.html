@@ -59,7 +59,7 @@
         <!-- section news -->
         <section id="news">
           <h3 class="sub" >PHASELLUS EGET METUS</h3>
-          <h2>All the latest news</h2>
+          <h2 class="title_big_section">All the latest news</h2>
           <span class="orange_line"></span>
           <!-- article grid 3 items-->
           <div id="grid_news_preview"  class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
@@ -127,6 +127,17 @@
         <div id="redour_wrapper_XXS_btn">
           <a class="btn_XXS" type="button" name="button">READ OUR BLOG <i class="fas fa-long-arrow-alt-right"></i></a>
         </div>
+        <section id="forum_section">
+          <h3 class="sub">PHASELLUS EGET METUS</h3>
+          <h2 class="title_big_section">Forum Section</h2>
+          <span class="orange_line"></span>
+          <div id="container_sections_forum" class="container_1340 margin_auto">
+            <div v-for="element in sectionsForum" class="box_section_forum">
+              <i  aria-hidden="true" :class="element.icon" class="fas"></i>
+              <h3>{{element.title}}</h3>
+            </div>
+          </div>
+        </section>
         <footer >
           <div id="footer_top" class="container_1340 margin_auto">
             <div id="description_footer">

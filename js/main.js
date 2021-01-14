@@ -111,7 +111,42 @@ var app = new Vue({
         date:"October 11th, 2015",
         comments:"Comments Off",
       }
-    ]
+    ],
+    sectionsForum: [
+      {
+        title: "Nws & Comunity",
+        icon:"fa-file-alt",
+      },
+      {
+        title: "Apple Forum",
+        icon:"fa-apple",
+      },
+      {
+        title: "Microsoft Forum",
+        icon:"fa-windows",
+      },
+      {
+        title:"Android Forum",
+        icon:"fa-android",
+      },
+      {
+        title:"General Discussion",
+        icon:"fa-coffee",
+      },
+      {
+        title:"App & Software",
+        icon:"fa-cubes",
+      },
+      {
+        title:"Gadget & Stuff",
+        icon:"fa-laptop",
+      },
+      {
+        title:"Tutorials & Guides",
+        icon:"fa-wrench",
+      },
+
+    ],
 
 
 
@@ -120,6 +155,6 @@ var app = new Vue({
 
   },
   mounted:function () {
-  
+
   }
 });

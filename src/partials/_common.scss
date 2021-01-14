@@ -140,3 +140,13 @@ body {
     background-color: $lightCoral;
 
   }
+  h2.title_big_section {
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+    & + .orange_line {
+      position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+    }
+  }

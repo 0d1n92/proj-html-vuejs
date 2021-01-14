@@ -2,6 +2,7 @@
 $easternBlue: #26a9bd;
 $doveGrey:#707070;
 $emperorGrey:#525252;
+$silverChalice:#aeaeae;
 $codeGrey:#191919;
 $lightCoral: #FF8D61;
 $maxWidthPage: 1340;
@@ -41,4 +42,11 @@ $reviewArticoleHero:"../img/featured_article_2_bg.jpg";
 
   background-size: cover;
   color: white;
+}
+
+@mixin paddingSection {
+  text-align: center;
+  padding-top: 120px;
+  padding-right: 30px;
+  padding-left: 30px
 }
