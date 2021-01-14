@@ -115,10 +115,12 @@ body {
     color: $codeGrey;
   }
   .fusion-arrow-svg {
-    display: block;
     position: absolute;
     top: 55px;
     left:25%;
     transform: translateX(-50%);
-
+    display: none;
+     &.active {
+    display: block !important;
     }
+  }

@@ -130,11 +130,14 @@ a.btn_XXS i {
 }
 
 .fusion-arrow-svg {
-  display: block;
   position: absolute;
   top: 55px;
   left: 25%;
   transform: translateX(-50%);
+  display: none;
+}
+.fusion-arrow-svg.active {
+  display: block !important;
 }
 
 header {
