@@ -132,9 +132,17 @@
           <h2 class="title_big_section">Forum Section</h2>
           <span class="orange_line"></span>
           <div id="container_sections_forum" class="container_1340 margin_auto">
-            <div v-for="element in sectionsForum" class="box_section_forum">
-              <i  aria-hidden="true" :class="element.icon" class="fas"></i>
-              <h3>{{element.title}}</h3>
+            <div class="row">
+              <div v-for="(element,index) in sectionsForum" v-if="index< 4" class="box_section_forum">
+                <i  aria-hidden="true" :class="sectionsForum[index].icon" class="fas"></i>
+                <h3>{{element.title}}</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div v-for="(element,index) in sectionsForum" v-if="index>=4" class="box_section_forum">
+                <i  aria-hidden="true" :class="element.icon" class="fas"></i>
+                <h3>{{element.title}}</h3>
+              </div>
             </div>
           </div>
         </section>
