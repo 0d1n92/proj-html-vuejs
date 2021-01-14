@@ -2,7 +2,9 @@
 $easternBlue: #26a9bd;
 $doveGrey:#707070;
 $emperorGrey:#525252;
-$maxWidthPage: 1240;
+$maxWidthPage: 1340;
+$widthXsCl: 65;
+$widthSmCl: 35;
 $BgImgJumbotron: "../img/home_slider_bg.jpg";
 $featureArticoleHero:"../img/featured_article_1_bg.jpg";
 $reviewArticoleHero:"../img/featured_article_2_bg.jpg";
@@ -34,8 +36,7 @@ $reviewArticoleHero:"../img/featured_article_2_bg.jpg";
 }
 
 @mixin heroSection {
-  padding:20% 8%;
-  padding-bottom: 8%;
+
   background-size: cover;
   color: white;
 }

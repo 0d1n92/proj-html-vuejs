@@ -47,8 +47,8 @@ body {
   margin: auto;
 }
 
-.container_1240 {
-  width: 1240px;
+.container_1340 {
+  width: 1340px;
   height: 100%;
 }
 
@@ -95,12 +95,12 @@ h2.title_hero_article {
   line-height: 58px;
 }
 
-.cl_70 {
-  width: 70%;
+.cl_65 {
+  width: 65%;
 }
 
-.cl_30 {
-  width: 30%;
+.cl_35 {
+  width: 35%;
 }
 
 header {
@@ -178,30 +178,32 @@ div#jumbotron button.btn_rectangle i.fa-angle-right {
   margin-left: 10px;
 }
 
-.box_preview_article {
-  margin-top: 70px;
-  text-align: left !important;
-}
-.box_preview_article img.img_news {
-  width: 396px;
-}
-.box_preview_article a.title_preview_link {
+a.title_preview_link {
   display: block;
   text-decoration: none;
   color: #191919;
   margin-top: 15px;
   margin-bottom: 6px;
 }
-.box_preview_article .meta {
+
+.meta {
   display: block;
   font-size: 13px;
   margin-bottom: 13px;
   line-height: 19.5px;
 }
-.box_preview_article .meta a.count_comment {
+.meta a.count_comment {
   margin-left: 8px;
   padding: 0 8px;
   border-left: 1px solid #707070;
+}
+
+.box_preview_article {
+  margin-top: 70px;
+  text-align: left !important;
+}
+.box_preview_article img.img_news {
+  width: 396px;
 }
 .box_preview_article p {
   line-height: 30px;
@@ -259,18 +261,26 @@ section#reviewed::after {
   display: table;
 }
 section#reviewed #reviewed_product {
-  padding: 20% 8%;
-  padding-bottom: 8%;
   background-size: cover;
   color: white;
+  padding: 8%;
   background-image: url("../img/featured_article_2_bg.jpg");
   margin-right: 50px;
 }
 section#reviewed aside#tutorial {
+  height: 452px;
   display: flex;
   flex-direction: column;
-  align-content: space-between;
+  justify-content: space-between;
 }
-section#reviewed aside#tutorial.cl_30 {
-  width: calc(30% - 50px);
+section#reviewed aside#tutorial.cl_35 {
+  width: calc( 35% - 50px);
+}
+section#reviewed aside#tutorial.cl_35 img {
+  height: 117px;
+  margin-right: 20px;
+}
+section#reviewed .description_tutorial {
+  display: flex;
+  align-content: space-between;
 }
