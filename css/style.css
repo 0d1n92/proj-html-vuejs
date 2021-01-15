@@ -197,6 +197,8 @@ h2.title_big_section + .orange_line {
   list-style: none;
   line-height: 29px;
   padding: 15px 25px 15px 30px;
+  background-color: #26a9bd;
+  color: white;
 }
 .dropdown_items li:hover {
   background-color: #1c93a5;
