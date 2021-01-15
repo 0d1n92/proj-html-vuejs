@@ -172,6 +172,8 @@ h2.title_big_section + .orange_line {
 }
 
 header {
+  position: fixed;
+  z-index: 1;
   width: 100%;
   height: 97px;
   padding: 0 30px;
@@ -191,8 +193,8 @@ header #header_logo a {
 }
 header #header_logo img#logo {
   vertical-align: middle;
-  max-height: 61px;
-  height: auto;
+  height: 61px;
+  width: 251px;
 }
 header ul#items_main_menu > li {
   position: relative;
@@ -222,6 +224,8 @@ header ul#items_main_menu > li > a.btn_nav_black:hover {
 
 div#jumbotron {
   height: 840px;
+  position: relative;
+  top: 97px;
   color: white;
   background-image: url("../img/home_slider_bg.jpg");
   background-position: 50% 50%;
@@ -392,6 +396,9 @@ section#forum_section .row {
   justify-content: space-between;
   margin: 65px 0;
 }
+section#forum_section #container_sections_forum {
+  margin-top: 100px;
+}
 section#forum_section #container_sections_forum .box_section_forum {
   display: flex;
   flex-direction: column;
@@ -456,6 +463,7 @@ section#go_to_forum .wrapper .btn_rectangle {
   background-color: #26a9bd;
   color: white;
   color: white;
+  align-self: center;
 }
 
 div#news_letter {
@@ -480,6 +488,9 @@ div#news_letter p {
   height: 54px;
   width: 500px;
   margin-right: 20px;
+}
+#news_letter_post > input[type=text]::-webkit-input-placeholder {
+  padding-left: 12px;
 }
 
 #footer_top {
@@ -523,9 +534,14 @@ div#news_letter p {
   content: "";
 }
 
+#footer_bottom {
+  border-top: 1px solid #eaeaea;
+  padding: 35px 0;
+}
 #footer_bottom .container_1340 {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 #footer_bottom ul#social {
@@ -533,9 +549,13 @@ div#news_letter p {
 }
 #footer_bottom ul#social > li {
   list-style: none;
-  margin: 0 10px;
+  margin: 0 5px;
 }
-#footer_bottom ul#social > li > i {
+#footer_bottom ul#social > li > a {
+  display: block;
+  cursor: pointer;
+}
+#footer_bottom ul#social > li > a i {
   display: flex;
   justify-content: center;
   border-width: 0px;
@@ -543,8 +563,8 @@ div#news_letter p {
   border-radius: 100%;
   color: #ffffff;
   margin-bottom: 15px;
-  height: 55px;
-  width: 55px;
-  line-height: 55px;
-  font-size: 23px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
 }

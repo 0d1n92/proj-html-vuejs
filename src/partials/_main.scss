@@ -143,6 +143,7 @@ section#forum_section {
 
 
   #container_sections_forum {
+    margin-top: 100px;
     .box_section_forum {
       display: flex;
       flex-direction: column;
@@ -199,6 +200,7 @@ section#go_to_forum {
     .btn_rectangle {
       @include btnBlue;
       color: white;
+      align-self:center;
     }
 
   }
@@ -229,5 +231,8 @@ div#news_letter {
   height: 54px;
   width: 500px;
   margin-right: 20px;
+  &::-webkit-input-placeholder {
+    padding-left: 12px
+  }
 }
 }

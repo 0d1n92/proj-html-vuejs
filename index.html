@@ -30,7 +30,10 @@
                   <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
                   </svg></span>
                 </li>
-                <li><a class="btn_nav_black" href="#">Join us</a> </li>
+                <li><a class="btn_nav_black" href="#">Join us</a>
+                  <span class="fusion-arrow-svg"><svg height="12px" width="27px">
+                  <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
+                  </svg></span></li>
                 <li><a href="#"><i class="fas fa-search"></i></a></li>
 
               </ul>
@@ -107,7 +110,7 @@
           <!-- left -->
           <section id="reviewed_product"  class="float_left cl_65">
             <h3 class="sub">FEATURED ARTICLE</h3>
-            <h2 class="title_hero_article">Cras malesuada et orci eget pharetra</h2>
+            <h2 class="title_hero_article">Mauris viverra atisan ipsum eget felis prims efficitur varius</h2>
             <p>In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
             <button class="btn_rectangle" type="button" name="button">read more  <i class="fas fa-angle-right"></i></button>
           </section>
@@ -187,8 +190,7 @@
               </div>
               <div id="footer_bottom_right">
                 <ul id="social">
-                  <li v-for="social in social_icons"><i  v-bind:style="social.fill" :class="social.icon"></i> </li>
-
+                  <li v-for="social in social_icons"><a><i :style="social.fill" :class="social.icon"></a></i> </li>
                 </ul>
               </div>
 

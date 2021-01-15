@@ -41,26 +41,33 @@
 }
 
 #footer_bottom {
+  border-top: 1px solid  #eaeaea;
+  padding: 35px 0;
   .container_1340{
+
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   }
   ul#social{
     display:flex;
     >li{
         list-style: none;
-        margin: 0 10px;
-
-        >i {
+        margin: 0 5px;
+        >a {
+        display: block;
+        cursor: pointer;
+        i {
         display: flex;
         justify-content: center;
         @include iconRounded;
-        height: 55px;
-        width: 55px;
-        line-height: 55px;
-        font-size: 23px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        font-size: 20px;
         }
+      }
       }
   }
 }

@@ -1,5 +1,7 @@
 $heightHeader: 97px;
 header {
+  position: fixed;
+  z-index: 1;
   width: 100%;
   height: $heightHeader;
   padding: 0 30px;
@@ -16,8 +18,8 @@ header {
       }
       img#logo {
         vertical-align: middle;
-        max-height: 61px;
-        height: auto;
+        height: 61px;
+        width: 251px;
       }
     }
     ul#items_main_menu {
