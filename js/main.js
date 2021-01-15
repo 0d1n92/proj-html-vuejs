@@ -94,19 +94,19 @@ var app = new Vue({
 
     tutorialData:[
       {
-        img:"img/post_feat_img_23-147x118.jpg",
+        img:"img/post_feat_img_23-700x441.jpg",
         title:"Donec ornare pretium eget scelisque justo",
         date:"October 11th, 2015",
         comments:"Comments Off",
       },
       {
-        img:"img/post_feat_img_22-147x118.jpg",
+        img:"img/post_feat_img_22-700x441.jpg",
         title:"Fusce sollicitudin nunc sed placerat varius",
         date:"October 11th, 2015",
         comments:"Comments Off",
       },
       {
-        img:"img/post_feat_img_20-147x118.jpg",
+        img:"img/post_feat_img_20-700x441.jpg",
         title:"Proin eu purus sed aru aliquet curabir vens",
         date:"October 11th, 2015",
         comments:"Comments Off",

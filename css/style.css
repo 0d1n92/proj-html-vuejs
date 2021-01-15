@@ -393,9 +393,18 @@ section#reviewed aside#tutorial > h3 {
 section#reviewed aside#tutorial.cl_35 {
   width: calc( 35% - 50px);
 }
-section#reviewed aside#tutorial.cl_35 img {
-  height: 117px;
+section#reviewed aside#tutorial.cl_35 .description_tutorial > a {
   margin-right: 20px;
+  height: 117px;
+  width: 195px;
+  line-height: 120px;
+  overflow: hidden;
+  display: block;
+}
+section#reviewed aside#tutorial.cl_35 .description_tutorial > a img {
+  height: 120px;
+  width: 198px;
+  vertical-align: middle;
 }
 section#reviewed .description_tutorial {
   display: flex;

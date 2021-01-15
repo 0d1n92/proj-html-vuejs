@@ -125,9 +125,20 @@ section#reviewed {
     }
     &.cl_#{$widthSmCl} {
       width: calc( #{$widthSmCl}% - 50px);
-      img {
-        height: 117px;
+      .description_tutorial>a {
         margin-right: 20px;
+        height: 117px;
+        width: 195px;
+        line-height: 120px;
+        overflow: hidden;
+        display: block;
+
+      img {
+        height: 120px;
+        width: 198px;
+        vertical-align: middle;
+    
+      }
       }
     }
     display: flex;
