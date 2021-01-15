@@ -143,6 +143,7 @@ a.btn_XXS i {
 
 .fusion-arrow-svg {
   position: absolute;
+  opacity: 0.98;
   top: 55px;
   left: 25%;
   transform: translateX(-50%);
@@ -173,11 +174,13 @@ h2.title_big_section + .orange_line {
 
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1;
   width: 100%;
   height: 97px;
   padding: 0 30px;
-  background-color: #26a9bd;
+  background-color: rgba(38, 169, 189, 0.98);
 }
 header::after {
   content: "";
@@ -224,8 +227,7 @@ header ul#items_main_menu > li > a.btn_nav_black:hover {
 
 div#jumbotron {
   height: 840px;
-  position: relative;
-  top: 97px;
+  margin-top: 97px;
   color: white;
   background-image: url("../img/home_slider_bg.jpg");
   background-position: 50% 50%;
@@ -294,6 +296,8 @@ a.title_preview_link {
 section#description_site {
   background-color: #f2f2f2;
   text-align: center;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -408,6 +412,9 @@ section#forum_section #container_sections_forum .box_section_forum {
   height: 250px;
   background-color: white;
   border-top: 4px solid #32b3c6;
+}
+section#forum_section #container_sections_forum .box_section_forum:hover h3 {
+  color: #FF8D61;
 }
 section#forum_section #container_sections_forum .box_section_forum a {
   text-decoration: none;

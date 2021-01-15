@@ -74,7 +74,7 @@ body {
   h3.sub {
     @include subTitleH3;
   }
-  
+
 #reviewed_product h3.sub ,#reviewed_product h3.sub {
     margin-bottom: 0;
   }
@@ -129,6 +129,7 @@ body {
   }
   .fusion-arrow-svg {
     position: absolute;
+    opacity: 0.98;
     top: 55px;
     left:25%;
     transform: translateX(-50%);

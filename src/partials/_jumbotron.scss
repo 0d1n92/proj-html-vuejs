@@ -3,8 +3,7 @@ $heightJumbotron:840px;
 
 div#jumbotron {
   height: $heightJumbotron;
-  position: relative;
-  top:$heightHeader;
+  margin-top:$heightHeader;
   color: white;
   background-image: url($BgImgJumbotron);
   background-position: 50% 50%;

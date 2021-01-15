@@ -1,11 +1,14 @@
 $heightHeader: 97px;
 header {
   position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1;
   width: 100%;
   height: $heightHeader;
   padding: 0 30px;
-  background-color: $easternBlue;
+  background-color: rgb(38,169,189, 0.98);
+
 
   @include clearfix;
     #header_left, #header_right {

@@ -114,7 +114,7 @@ var app = new Vue({
     ],
     sectionsForum: [
       {
-        title: "Nws & Comunity",
+        title: "News & Comunity",
         icon:"fas fa-file-alt",
       },
       {
