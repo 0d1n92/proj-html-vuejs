@@ -46,4 +46,21 @@
   flex-direction: row;
   justify-content: space-between;
   }
+  ul#social{
+    display:flex;
+    >li{
+        list-style: none;
+        margin: 0 10px;
+
+        >i {
+        display: flex;
+        justify-content: center;
+        @include iconRounded;
+        height: 55px;
+        width: 55px;
+        line-height: 55px;
+        font-size: 23px;
+        }
+      }
+  }
 }

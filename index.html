@@ -187,10 +187,8 @@
               </div>
               <div id="footer_bottom_right">
                 <ul id="social">
-                  <li></li>
-                  <li></li>
-                  <li></li>
-                  <li></li>
+                  <li v-for="social in social_icons"><i  v-bind:style="social.fill" :class="social.icon"></i> </li>
+
                 </ul>
               </div>
 

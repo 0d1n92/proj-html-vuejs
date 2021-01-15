@@ -148,6 +148,36 @@ var app = new Vue({
 
     ],
 
+    social_icons: [
+      {
+        icon:"fab fa-facebook-f",
+        fill:{
+          backgroundColor: "#3b5998",
+        }
+      },
+      {
+        icon:"fab fa-twitter",
+        fill:{
+          backgroundColor: "#55acee",
+        }
+      },
+       {
+         icon:"fab fa-instagram",
+         fill: {
+          backgroundColor:"#3f729b"
+         }
+       },
+       {
+         icon: "fab fa-youtube",
+         fill:{
+           backgroundColor: "#cd201f"
+         },
+       }
+     ],
+     fill: {
+       backgroundColor:"#3f729b"
+     }
+
   },
   methods: {
 

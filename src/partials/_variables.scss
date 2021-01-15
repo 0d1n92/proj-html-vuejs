@@ -57,3 +57,11 @@ $BgSectionGoToForum: "../img/join_now_cta_bg.jpg";
   background-color: $easternBlue;
   color: white;
 }
+
+@mixin iconRounded {
+  border-width:0px;
+  box-sizing:content-box;
+  border-radius:100%;
+  color:#ffffff;
+  margin-bottom: 15px;
+}

@@ -162,16 +162,12 @@ section#forum_section {
       }
       i {
         border-color:rgba(255,255,255,0);
-        border-width:0px;
         background-color:$lightCoral;
-        box-sizing:content-box;
+        @include iconRounded ;
         height:84px;
         width:84px;
         line-height:84px;
-        border-radius:100%;
-        color:#ffffff;
         font-size:42px;
-        margin-bottom: 15px;
       }
     }
   }
@@ -187,6 +183,10 @@ section#go_to_forum {
   padding-bottom: 120px;
   .wrapper {
     width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
     h2 {
       font-size: 60px;
