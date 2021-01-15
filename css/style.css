@@ -100,6 +100,11 @@ h3.sub {
   margin-bottom: 0;
 }
 
+.fusion-arrow-svg {
+  height: 12px !important;
+  display: block;
+}
+
 .orizontal_flex {
   display: flex;
   justify-content: space-between;
@@ -184,6 +189,23 @@ h2.title_big_section + .orange_line {
 .dropdown_items {
   position: absolute;
   top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.dropdown_items li {
+  width: 200px;
+  list-style: none;
+  line-height: 29px;
+  padding: 15px 25px 15px 30px;
+}
+.dropdown_items li:hover {
+  background-color: #1c93a5;
+}
+.dropdown_items li > a {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
 }
 
 header {
@@ -218,6 +240,16 @@ header ul#items_main_menu > li {
   display: inline-block;
   list-style: none;
   line-height: 97px;
+}
+header ul#items_main_menu > li > ul.dropdown_items {
+  padding-top: 10px;
+}
+header ul#items_main_menu > li > ul.dropdown_items > li {
+  background-color: #26a9bd;
+  color: white;
+}
+header ul#items_main_menu > li > ul.dropdown_items > li:hover {
+  background-color: #1c93a5;
 }
 header ul#items_main_menu > li:hover .fusion-arrow-svg {
   display: block;

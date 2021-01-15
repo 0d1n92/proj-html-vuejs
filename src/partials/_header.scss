@@ -28,10 +28,20 @@ header {
     ul#items_main_menu {
 
 
-      > li {
+      > li{
         position: relative;
         @include listInline;
         line-height: $heightHeader;
+        >ul.dropdown_items {
+          padding-top: 10px;
+          >li {
+          background-color:  $easternBlue;
+          color: white;
+          &:hover {
+            background-color: #1c93a5;
+          }
+        }
+        }
         &:hover .fusion-arrow-svg{
           display: block;
         }
@@ -48,6 +58,7 @@ header {
           &:hover {
             background-color: $lightCoral;
           }
+
         }
 
       }

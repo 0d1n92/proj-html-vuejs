@@ -30,14 +30,23 @@
                   <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
                   </svg></span>
                   <ul v-show="varShow" class="dropdown_items" v-if="item=='Forums'">
-                    <li v-for="section in sectionsForum">{{section.title}}</li>
+
+                    <li v-for="section in sectionsForum"><a href="#">{{section.title}}</a></li>
                   </ul>
                 </li>
 
-                <li><a class="btn_nav_black" href="#">Join us</a>
-                  <span class="fusion-arrow-svg"><svg height="12px" width="27px">
-                  <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
-                  </svg></span></li>
+                <li @mouseover="varShowuser=true" @mouseleave="varShowuser = !varShowuser"><a class="btn_nav_black" href="#">Join us</a>
+                  <span  class="fusion-arrow-svg">
+                    <svg height="12px" width="27px">
+                    <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
+                    </svg>
+                  </span>
+                  <ul v-show="varShowuser==true" class="dropdown_items">
+                    </span>
+                    <li>login</li>
+                    <li>lost your password</li>
+                  </ul>
+                </li>
                 <li><a href="#"><i class="fas fa-search"></i></a></li>
               </ul>
             </nav>

@@ -87,6 +87,10 @@ body {
     margin-bottom: 0;
   }
 
+.fusion-arrow-svg {
+  height: 12px !important;
+  display: block;
+}
 
   .orizontal_flex {
     display: flex;
@@ -168,5 +172,24 @@ body {
  .dropdown_items {
    position: absolute;
    top:100px;
+   display: flex;
+   flex-direction: column;
+
+   li {
+     width: 200px;
+     list-style: none;
+     line-height: 29px;
+     padding: 15px 25px 15px 30px;
+     &:hover {
+       background-color: #1c93a5;
+     }
+     > a {
+      width: 100%;
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+
+     }
+   }
 
  }

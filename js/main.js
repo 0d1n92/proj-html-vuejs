@@ -3,6 +3,7 @@ var app = new Vue({
   data: {
     itemsMainMenu: ["Home","Apple","Microsoft","Android","Forums", "Contact us"],
     varShow: false,
+    varShowuser: false,
     descriptionFotter:  {
         title: "avada tech forum",
         text: "Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.",
