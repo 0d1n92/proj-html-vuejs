@@ -2,6 +2,7 @@ var app = new Vue({
   el: '#app',
   data: {
     itemsMainMenu: ["Home","Apple","Microsoft","Android","Forums", "Contact us"],
+    varShow: false,
     descriptionFotter:  {
         title: "avada tech forum",
         text: "Sed semper, nisl id feugiat eleifend, erat est digssim felis, quis auctor elit enim nec ante. Cras et nibh risus. Pellentesque non mi sit amet mi intermentum.",
@@ -180,6 +181,10 @@ var app = new Vue({
 
   },
   methods: {
+    showItem: function (index) {
+      if(this.itemsMainMenu[index]=="Forums") this.varShow=true;
+    }
+
 
   },
   mounted:function () {

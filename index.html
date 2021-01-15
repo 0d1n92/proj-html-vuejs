@@ -22,20 +22,23 @@
           <div id="header_right" class="float_right">
             <nav id="main_menu">
               <ul id="items_main_menu">
-                <li  v-for="(item,index) in itemsMainMenu"><a href="#">{{item}}</a>
+                <li   @mouseover="showItem(index)" @mouseleave="varShow = false" v-for="(item,index) in itemsMainMenu"><a href="#">{{item}}</a>
                   <span v-if="index==0" class="fusion-arrow-svg active"><svg height="12px" width="27px">
                   <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
                   </svg></span>
                   <span v-else class="fusion-arrow-svg"><svg height="12px" width="27px">
                   <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
                   </svg></span>
+                  <ul v-show="varShow" class="dropdown_items" v-if="item=='Forums'">
+                    <li v-for="section in sectionsForum">{{section.title}}</li>
+                  </ul>
                 </li>
+
                 <li><a class="btn_nav_black" href="#">Join us</a>
                   <span class="fusion-arrow-svg"><svg height="12px" width="27px">
                   <path d="M0 0 L13.5 12 L27 0 Z" fill="#25a9bd"></path>
                   </svg></span></li>
                 <li><a href="#"><i class="fas fa-search"></i></a></li>
-
               </ul>
             </nav>
           </div>
