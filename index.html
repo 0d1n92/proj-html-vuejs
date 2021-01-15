@@ -68,8 +68,8 @@
           <div id="grid_news_preview"  class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
             <!-- article box1 -->
             <article v-for="article in articlesNews" class="box_preview_article">
-              <a href="#">
-                <img class="img_news" :src=article.img alt="art 1">
+              <a  href="#">
+                <img class="img_news scale" :src=article.img alt="art 1">
               </a>
               <div>
                 <a href="#" class="title_preview_link"><h3 class="title_preview_post">{{article.title}}</h3> </a>
@@ -93,7 +93,7 @@
           <div id="grid_featured_preview" class="container_1340 margin_auto  margin_bottom_40 orizontal_flex">
             <article v-for="article in articlesFeatured" class="box_preview_article">
               <a href="#">
-                <img class="img_news" :src=article.img alt="art 1">
+                <img class="img_news scale" :src=article.img alt="art 1">
               </a>
               <div>
                 <a href="#" class="title_preview_link"><h3 class="title_preview_post">{{article.title}}</h3> </a>

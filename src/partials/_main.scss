@@ -22,8 +22,16 @@ a.title_preview_link {
 //previev ARTICLE
 .box_preview_article {
   margin-top: 70px;
-  img.img_news {
-    width:396px;
+  >a{
+
+    width:calc(#{$imgW_animationZoom} - 10px);
+    height: calc(#{$imgH_animationZoom} - 10px);
+    display: block;
+    overflow: hidden;
+    img.img_news {
+      width:$imgW_animationZoom;
+      height: $imgH_animationZoom;
+    }
   }
   text-align: left !important;
 
